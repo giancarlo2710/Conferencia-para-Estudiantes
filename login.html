@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Conferencia</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+<section class="login">
+
+    <h2>Acceso al Sistema</h2>
+
+    <p>Ingrese sus credenciales para acceder al panel de la conferencia.</p>
+
+    <form action="login.php" method="POST">
+
+        <label>Correo Electrónico</label><br>
+        <input type="email"
+               name="correo"
+               placeholder="Ingrese su correo"
+               required><br><br>
+
+        <label>Contraseña</label><br>
+        <input type="password"
+               name="password"
+               placeholder="Ingrese su contraseña"
+               required><br><br>
+
+        <input type="checkbox" name="recordar">
+        Recordar sesión
+
+        <br><br>
+
+        <input type="submit" value="Iniciar Sesión">
+
+    </form>
+
+    <br>
+
+    <a href="#">¿Olvidó su contraseña?</a>
+
+</section>
+
+</body>
+</html>
